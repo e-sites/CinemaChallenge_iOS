@@ -16,4 +16,4 @@ Voor de techniek willen we graag dat je gebruik maakt van Swift. De basisopzet v
 
 ## De praktijk
 
-Als startpunt kun je uitgaan van de bijlage testcase_cinema.php. Er is een ongedefinieerd aantal stoelen. Je functie(s) moeten dus met 10, maar ook met 10.000 stoelen (of meer) overweg kunnen. Verder zullen er al een random aantal stoelen bezet zijn. Ga er vanuit dat je functie een onderdeel is van een groter geheel, waarbij er meerdere mogelijkheden zijn om stoelen te reserveren. Maak gebruik van een database voor de registratie van de stoelen.
+Er is een ongedefinieerd aantal stoelen. Je functie(s) moeten dus met 10, maar ook met 10.000 stoelen (of meer) overweg kunnen. Verder zullen er al een random aantal stoelen bezet zijn. Ga er vanuit dat je functie een onderdeel is van een groter geheel, waarbij er meerdere mogelijkheden zijn om stoelen te reserveren. Maak gebruik van een database voor de registratie van de stoelen.
