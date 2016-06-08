@@ -26,8 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A608FE6E41D487F1E5406FE /* Pods-CinemaChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaChallenge/Pods-CinemaChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		8E2F2C57E76BCAA72BD49117 /* Pods-CinemaChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaChallengeTests/Pods-CinemaChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFE68AFE1D0851E400A9B6EF /* CinemaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE68B121D0851E400A9B6EF /* CinemaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE68B161D0851E400A9B6EF /* CinemaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaChallengeTests.swift; sourceTree = "<group>"; };
@@ -38,8 +36,6 @@
 		DFE68B2D1D08527000A9B6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE68B2F1D08527000A9B6EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE68B331D08527500A9B6EF /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		EBF269107814995375310B3C /* Pods-CinemaChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaChallengeTests/Pods-CinemaChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		FA5FB3FB0EBC92CB410E9DFB /* Pods-CinemaChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinemaChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CinemaChallenge/Pods-CinemaChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,24 +63,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A51FC6A1AAF3570960546ADA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A608FE6E41D487F1E5406FE /* Pods-CinemaChallenge.debug.xcconfig */,
-				FA5FB3FB0EBC92CB410E9DFB /* Pods-CinemaChallenge.release.xcconfig */,
-				8E2F2C57E76BCAA72BD49117 /* Pods-CinemaChallengeTests.debug.xcconfig */,
-				EBF269107814995375310B3C /* Pods-CinemaChallengeTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		DFE68AF51D0851E400A9B6EF = {
 			isa = PBXGroup;
 			children = (
 				DFE68B001D0851E400A9B6EF /* CinemaChallenge */,
 				DFE68B151D0851E400A9B6EF /* CinemaChallengeTests */,
 				DFE68AFF1D0851E400A9B6EF /* Products */,
-				A51FC6A1AAF3570960546ADA /* Pods */,
 				23A65C821EF7EB94739DAC5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -386,7 +370,6 @@
 		};
 		DFE68B1C1D0851E400A9B6EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A608FE6E41D487F1E5406FE /* Pods-CinemaChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CinemaChallenge/Supporting Files/Info.plist";
@@ -399,7 +382,6 @@
 		};
 		DFE68B1D1D0851E400A9B6EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA5FB3FB0EBC92CB410E9DFB /* Pods-CinemaChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CinemaChallenge/Supporting Files/Info.plist";
@@ -412,7 +394,6 @@
 		};
 		DFE68B1F1D0851E400A9B6EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2F2C57E76BCAA72BD49117 /* Pods-CinemaChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CinemaChallengeTests/Info.plist;
@@ -425,7 +406,6 @@
 		};
 		DFE68B201D0851E400A9B6EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF269107814995375310B3C /* Pods-CinemaChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CinemaChallengeTests/Info.plist;
