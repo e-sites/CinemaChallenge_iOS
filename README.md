@@ -2,7 +2,7 @@
 
 ## Opdracht
 
-Je krijgt de vraag om een klein deel van het reserveringssysteem voor een bioscoop te maken. Namelijk de functionaliteit die de stoelnummers toewijst aan mensen die online een plaats willen reserveren. Als input ontvang je het aantal personen, als output dien je een array te returnen van de te reserveren stoelnummers. Hierbij is het streven dat iedereen, zoveel mogelijk, naast elkaar kan zitten.
+Je krijgt de vraag om een klein deel van het reserveringssysteem voor een bioscoop te maken. Namelijk de functionaliteit die de stoelnummers toewijst aan mensen die online een plaats willen reserveren. Als input ontvang je het aantal personen, als output dien je een array te returnen van de te reserveren stoelen. Hierbij is het streven dat iedereen, zoveel mogelijk, naast elkaar kan zitten.
 
 Je dient dus een methode te verzinnen waarbij je in een lijst met stoelen een gat kunt zoeken waar het gewenste aantal personen past. De stoelen in deze bioscoop zijn doorgenummerd, de rijen zijn dus irrelevant. Indien er meerdere mogelijkheden zijn waar de personen kunnen zitten dien je de mogelijkheid met de laagste stoelnummers (de eerst voorkomende) terug te geven. Indien er geen mogelijkheden zijn waarbij de groep in zijn geheel bij elkaar kan zitten, dien je net zo lang mensen apart te zetten tot het wel past.
 
@@ -16,4 +16,4 @@ Voor de techniek willen we graag dat je gebruik maakt van Swift, eventueel in co
 
 ## De praktijk
 
-Er is een ongedefinieerd aantal stoelen. Je functie(s) moeten dus met 10, maar ook met 10.000 stoelen (of meer) overweg kunnen. Verder zullen er al een random aantal stoelen bezet zijn. Ga er vanuit dat je functie een onderdeel is van een groter geheel, waarbij er meerdere mogelijkheden zijn om stoelen te reserveren. Maak gebruik van een database voor de registratie van de stoelen.
+Er is een ongedefinieerd aantal stoelen. Je functie(s) moeten dus met 10, maar ook met 10.000 stoelen (of meer) overweg kunnen. Verder zullen er al een random aantal stoelen bezet zijn. Ga er vanuit dat je functie een onderdeel is van een groter geheel, waarbij er meerdere mogelijkheden zijn om stoelen te reserveren. Maak gebruik van een database voor de registratie van de stoelen. Het type database is vrij invulbaar.
