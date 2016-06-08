@@ -1,4 +1,4 @@
-# Cinema Challenge - iOS (Swift)
+![Cinema Challenge](Assets/logo.png)
 
 ## Opdracht
 
