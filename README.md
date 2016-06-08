@@ -1,4 +1,4 @@
-![Cinema Challenge](Assets/logo.png)
+![Cinema Challenge](Assets/logo.png?1)
 
 ## Opdracht
 
