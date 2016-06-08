@@ -12,7 +12,7 @@ Maak ook een (dynamische) visuele presentatie van de stoelen in de bioscoop en d
 
 ## Techniek
 
-Voor de techniek willen we graag dat je gebruik maakt van Swift. De basisopzet van het project is terug te vinden in deze repository. Eventuele frameworks die je graag in wilt zetten om deze challenge te tackelen zijn vrij te kiezen (en geen vereiste!). Echter dient de logica voor het kiezen van de beste plaatsen natuurlijk zelf geschreven te zijn.
+Voor de techniek willen we graag dat je gebruik maakt van Swift, eventueel in combinatie met Objective-C of C. Waar jezelf denkt het beste resultaat mee te halen. De basisopzet van het project is terug te vinden in deze repository. Eventuele frameworks die je graag in wilt zetten om deze challenge te tackelen zijn vrij te kiezen (en geen vereiste!). Echter dient de logica voor het kiezen van de beste plaatsen natuurlijk zelf geschreven te zijn.
 
 ## De praktijk
 
