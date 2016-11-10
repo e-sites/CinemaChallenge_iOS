@@ -10,6 +10,8 @@ import UIKit
 
 class MainViewController : UIViewController  {
 
+    static let nibName = "MainView"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
