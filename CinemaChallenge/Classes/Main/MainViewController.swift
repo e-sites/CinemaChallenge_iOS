@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController : UIViewController  {
+class MainViewController: UIViewController  {
 
     static let nibName = "MainView"
     
